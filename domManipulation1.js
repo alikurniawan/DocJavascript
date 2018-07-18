@@ -13,3 +13,4 @@ c.classList.remove('label');
 c.classList.toggle('label'); //Kalau udah ada kelas label dibiarin, kalau belum ditambahain
 c.classList.item(2); //Mencari urutan nomer 2 name class didalam class
 c.classList.contains('dua'); //adakah class name dua ? #Nanya dia jawabnya true or false
+c.classList.replace('dua', 'tiga'); //Ganti nama yg udah ada
