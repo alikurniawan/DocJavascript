@@ -25,4 +25,4 @@ const li2 = ul.querySelector('li:nth-child(2)'); //Pilih Lokasi di elemen li nom
 //Untuk const li2 bisa juga dengan cara :
 const li2 = document.querySelector('section#b ul li:nth-child(2)');
 
-ul.insertBefore(liBaru, li2); //Memasukkan save --> elemen liBaru dengan lokasi sebelum li2
+ul.insertBefore(liBaru, li2); //Memasukkan save --> diisi elemen liBaru dengan lokasi sebelum li2
