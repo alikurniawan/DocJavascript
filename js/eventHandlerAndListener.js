@@ -1,4 +1,6 @@
 //Perbedaan Event Handler dan AdeventListener
+//Please open the event documentations on :
+https://developer.mozilla.org/en-US/docs/Web/events
 
 const p3 = document.querySelector('.p3');
 
