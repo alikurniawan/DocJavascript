@@ -12,6 +12,8 @@ const b = Math.round(Math.random() * 255 + 1);
 //awal penulisan rgb ---> rgb(100,100,100);
 document.body.style.backgroundColor = 'rgb('+r+', '+g+', '+b+')'
 
+//------------------------------------------------------------------------------------//
+
 //Cara manggil <input type="slider" name="sMerah"/>
 const sMerah = document.querySelector('input[name=sMerah]');
 
