@@ -17,6 +17,6 @@ document.body.style.backgroundColor = 'rgb('+r+', '+g+', '+b+')'
 //Cara manggil <input type="slider" name="sMerah"/>
 const sMerah = document.querySelector('input[name=sMerah]');
 
-sMerah.addEventListener('change', function(){
+sMerah.addEventListener('slider', function(){
   //Do Something...
 });
