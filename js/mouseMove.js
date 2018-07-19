@@ -2,6 +2,9 @@ document.body.addEventListener('mousemove', function(event){
   //posisi mouse Horizontal lurus ke kanan sumbu X
   console.log(event.clientX);
 
+  //posisi mouse Vertikal lurus ke atas sumbu Y
+  console.log(event.clientY);
+
   //Mengetahui lebar Width Windows Broswer
   console.log(window.innerWidth);
 
@@ -13,4 +16,4 @@ document.body.addEventListener('mousemove', function(event){
 })
 
 //Jangan lupa di CSS buat :
-// html, body {height: 100%;}
+// html, body {height: 100%; }
