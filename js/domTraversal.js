@@ -68,3 +68,14 @@ for( let i = 0; i < close.length; i++){
         card[i].style.display = 'none';
     });
 }
+
+//Cara 2 DOM Traversal Parent Element
+const close = document.querySelector('.close');
+// const card = document.querySelector('.card'); ----> Close This
+
+for( let i = 0; i < close.length; i++){
+    close[i].addEventListener('click', function(){
+        // card[i].style.display = 'none'; -----------> Change 
+        close[i].parentElement.style.display = 'none';
+    });
+}
