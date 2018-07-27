@@ -88,3 +88,19 @@ for( let i = 0; i < close.length; i++){
         e.target.parentElement.style.display = 'none';
     })
 }
+
+// e foreach --------------------------------------------------------------
+const close = document.querySelectorAll('.close');
+
+close.forEach(function(e){
+    el.addEventListener('click', function(){
+        e.target.parentElement.style.display = 'none';
+    })
+})
+
+parentNode  ------------------> node
+parentElement ----------------> element
+nextSibling ------------------> node
+nextElementSibling -----------> element
+previousSibling --------------> node
+previousElementSibling -------> element
