@@ -98,9 +98,9 @@ close.forEach(function(e){
     })
 })
 
-parentNode  ------------------> node
-parentElement ----------------> element
-nextSibling ------------------> node
-nextElementSibling -----------> element
-previousSibling --------------> node
-previousElementSibling -------> element
+// parentNode  ------------------> node
+// parentElement ----------------> element
+// nextSibling ------------------> node
+// nextElementSibling -----------> element
+// previousSibling --------------> node
+// previousElementSibling -------> element
