@@ -104,3 +104,12 @@ close.forEach(function(e){
 // nextElementSibling -----------> element
 // previousSibling --------------> node
 // previousElementSibling -------> element
+
+// cegah aksi default dengan preventDefault
+
+close.forEach(function(e){
+    el.addEventListener('click', function(){
+        e.target.parentElement.style.display = 'none';
+        e.preventDefault();
+    })
+})
