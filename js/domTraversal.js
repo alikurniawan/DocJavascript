@@ -105,11 +105,44 @@ close.forEach(function(e){
 // previousSibling --------------> node
 // previousElementSibling -------> element
 
-// cegah aksi default dengan preventDefault
 
+// cegah aksi default dengan preventDefault
 close.forEach(function(e){
     el.addEventListener('click', function(){
         e.target.parentElement.style.display = 'none';
         e.preventDefault();
     })
+})
+
+// cegah efek bubling agar script diatasnya tidak ikut berjalan
+close.forEach(function(e){
+    el.addEventListener('click', function(){
+        e.target.parentElement.style.display = 'none';
+        e.preventDefault();
+        e.stopPropagation(); //-----> ini method untuk stop bubling
+    })
+})
+
+const cards = document.querySelectorAll('.card');
+
+cards.forEach(function(card){
+    card.addEventListener('click', function(e){
+        alert('ok');
+    })
+})
+
+// kode yg lebih efektif
+const container = document.querySelector('.container');
+
+container.addEventListener('click', function(e){
+    e.target // --------------------> ini awalnya e.target
+})
+
+//Full Script yg di arahkan yaitu containernya
+container.addEventListener('click', function(e){
+    if( e.target.className == 'close'){
+        e.target.parentElement.style.display = 'none';
+        e.preventDefault();
+        e.stopPropagation();
+    }
 })
