@@ -7,7 +7,7 @@ container.addEventListener('click', function(){
         jumbo.classList.add('fade');
 
         setTimeout(function(){
-            jumbo.classList.remove('fade'); //fade adalah nama kelas di CSS
+            jumbo.classList.remove('fade'); //fade adalah nama kelas di CSS untuk remove class di dalam element
         }, 500);
 
         e.target.classList.add('active'); //Active adalah nama class di CSS
