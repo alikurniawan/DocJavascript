@@ -1,6 +1,5 @@
-var a = 'asu baget'
+var a = 'guanteng'
 
-console.log(a.charAt(2));
-console.log(a.slice(6));
+console.log(a.split(2));
 
 
