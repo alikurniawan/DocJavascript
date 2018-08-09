@@ -13,4 +13,3 @@ console.log(c); //tidak bisa di akses karena ada var nya
 //Baris Script Local suatu function bisa melihat dan mengakses var diluar function
 //tetapi sebaliknya tidak, baris script di luar fungsi tidak bisa akses ke dalam fungsi kecuali tanpa deklarasi var
 
-
